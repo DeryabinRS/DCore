@@ -1,0 +1,16 @@
+AddDefaultCharset utf-8
+
+#Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+DirectoryIndex index.php
+
+RewriteRule ^(.*)$ index.php [L]
+
+
+

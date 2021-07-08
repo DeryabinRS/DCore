@@ -1,0 +1,18 @@
+#cssmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul li{
+    margin:2px 0;
+}
+#cssmenu ul li a{
+    background:#91cbe8;
+    padding:2px 5px 2px 10px;
+    display: block;
+    color: white;
+}
+#cssmenu ul li a:hover{
+    text-decoration: none;
+    background: #007bff;
+}

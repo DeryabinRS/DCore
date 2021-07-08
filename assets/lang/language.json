@@ -1,0 +1,110 @@
+{
+  "frm_user": {
+    "comment": "//ФОРМА ПОЛЬЗОВАТЕЛЯ",
+    "login": {"rus": "Вход", "eng": "Sign in"},
+    "pass": {"rus": "Пароль", "eng": "Password"},
+    "new_pass": {"rus": "Новый пароль", "eng": "New password"},
+    "repeat_pass": {"rus": "Повторите пароль", "eng": "Repeat password"},
+    "auth": {"rus": "Авторизация", "eng": "Sign in"},
+    "reg": {"rus": "Регистрация", "eng": "Sign up"},
+    "repass": {"rus": "Восстановить пароль", "eng": "Restore password"},
+    "repass_post_1": {"rus": "Для изменения вашего пароля", "eng": "To change your password"},
+    "repass_post_2": {"rus": "перейдите по ссылке", "eng": "follow this link"},
+    "repass_mess": {"rus": "На ваш email направлена ссылка для изменения пароля", "eng": "A link to change your password has been sent to your email"},
+    "repass_ok": {"rus": "Пароль успешно изменен", "eng": "Password changed successfully"},
+    "save": {"rus": "Сохранить", "eng": "Save"},
+    "exit": {"rus": "Выход", "eng": "Sign out"},
+    "admin": {"rus": "Панель администратора", "eng": "Administrator"},
+    "get_pass": {"rus": "Забыли пароль?", "eng": "For get password?"},
+    "change_pass": {"rus": "Изменить пароль", "eng": "Change password"}
+  },
+  "frm_auth": {
+    "comment": "//ФОРМА АВТОРИЗАЦИИ",
+    "auth": {"rus": "Авторизация", "eng": "Sign in"},
+    "slogan": {"rus": "Участвуй в конкурсе!", "eng": "Take part in the competition!"},
+    "login": {"rus": "Вход", "eng": "Sign in"},
+    "pass": {"rus": "Пароль", "eng": "Password"},
+    "welcome": {"rus": "Добро пожаловать!", "eng": "Welcome!"},
+    "command" : {"rus": "Команда", "eng": "Team"},
+
+    "error_pass_0" : {"rus": "Не верный пароль", "eng": "Incorrect password"},
+    "error_usr_0" : {"rus": "Пользователь не существует или учетная запись не активирована", "eng": "User does not exist or account is not activated"},
+    "error_usr_1" : {"rus": "Пользователь заблокирован", "eng": "The user is blocked"},
+    "error_usr_2" : {"rus": "Пользователь не авторизован", "eng": "User is not authorized"},
+    "error_auth_0" : {"rus": "Введите логин и пароль", "eng": "Enter login and password"}
+  },
+  "frm_activate": {
+    "comment": "//ФОРМА АКТИВАЦИИ УЧЕТНОЙ ЗАПИСИ",
+    "activate": {"rus": "Активация аккаунта", "eng": "Account activate"},
+    "done": {"rus": "Учетная запись активирована", "eng": "Account activated"},
+    "already": {"rus": "Учетная запись уже активирована", "eng": "Account is already activated"},
+    "error": {"rus": "Ошибка активации учетной записи", "eng": "Account activation error"}
+  },
+  "frm_reg": {
+    "comment": "//ФОРМА РЕГИСТРАЦИИ",
+    "reg_close": {"rus": "РЕГИСТРАЦИЯ ЗАКРЫТА", "eng": "REGISTRATION IS CLOSED"},
+    "reg": {"rus": "Регистрация", "eng": "Sign up"},
+    "pass": {"rus": "Пароль", "eng": "Password"},
+    "repeat_pass": {"rus": "Повторите пароль", "eng": "Repeat password"},
+    "error_pass_0": {"rus": "Пароли не совпадают", "eng": "Password mismatch"},
+    "error_pass_1": {"rus": "Пароль должен содержать от 8 до 32 символов", "eng": "Password must be between 8 and 32 characters"},
+    "error_pass_2": {"rus": "Пароль может состоять только из букв английского алфавита и цифр", "eng": "Password can only consist of letters of the English alphabet and numbers"},
+    "lastname": {"rus": "Фамилия", "eng": "Last Name"},
+    "firstname": {"rus": "Имя", "eng": "First Name"},
+    "surname": {"rus": "Отчество", "eng": "Middle Name"},
+    "personal_data_txt":{"rus": "Нажимая кнопку \"Регистрация\" Вы тем самым даете свое согласие на обработку персональных данных.", "eng": "By clicking the \"Register\" button, you give your consent to the processing of personal data."},
+    "error_email_0": {"rus": "Введите email","eng": "Enter your email"},
+    "error_email_1": {"rus": "Данный email уже используется!","eng": "This email is already in use!"},
+    "error_email_2": {"rus": "Email не правильный!","eng": "Email is not correct!"},
+    "captcha_not": {"rus": "Капча на введена","eng": "Captcha not entered"},
+    "to_activate": {"rus": "Для активации вашего аккаунта","eng": "To activate your account"},
+    "follow_link": {"rus": "перейдите по ссылке","eng": "follow the link"},
+    "post_reg_link": {"rus": "На ваш Email направлено письмо с подтверждением регистрации. Если письмо не доставлено, проверьте спам","eng": "A confirmation email has been sent to your Email. If the email is not delivered, check for spam"}
+  },
+  "frm_account": {
+    "comment": "//ФОРМА АККАУНТА ПОЛЬЗОВАТЕЛЯ",
+    "name": {"rus": "Личный кабинет", "eng": "Account"},
+    "lastname": {"rus": "Фамилия", "eng": "Lastname"},
+    "firstname": {"rus": "Имя", "eng": "Firstname"},
+    "middlename": {"rus": "Отчество", "eng": "Middlename"},
+    "phone": {"rus": "Телефон", "eng": "Phone"},
+    "birthday": {"rus": "Дата рождения", "eng": "Birthday"},
+    "country": {"rus": "Страна", "eng": "Country"},
+    "city": {"rus": "Город", "eng": "City"},
+    "work_study": {"rus": "Место работы / Учебы", "eng": "Place of work / study"},
+    "specialty": {"rus": "Специальность", "eng": "Specialty"},
+    "about": {"rus": "О себе", "eng": "About myself"},
+    "btn_save": {"rus": "Обновить информацию", "eng": "Save change"},
+    "update_frm": {"rus": "Данные обновлены", "eng":"Data updated"}
+  },
+  "menu": {
+    "comment": "//МЕНЮ",
+    "name":{"rus": "Меню","eng": "Menu"}
+  },
+  "header": {
+    "comment": "//ЗАГОЛОВКИ ГЛАВНОЙ СТРАНИЦЫ"
+  },
+  "page": {
+    "comment": "//ЭКЗЕМПЛЯР СТРАНИЦЫ",
+    "home": {"rus": "Главная","eng": "Home"},
+    "access_off": {"rus": "Доступ к странице закрыт","eng": "Access to the page is denied"},
+    "error_404": {"rus": "Страницы не существует","eng": "The page does not exist"}
+  },
+  "form": {
+    "update": {"rus": "Информация обновлена","eng": "Information updated"}
+  },
+  "news": {
+    "comment": "//НОВОСТИ",
+    "title": {"rus": "Новости и мероприятия","eng": "News and events"},
+    "today": {"rus": "Сегодня","eng": "Today"},
+    "tomorrow": {"rus": "Завтра","eng": "Tomorrow"},
+    "read_more": {"rus": "Читать далее...","eng": "Read more..."},
+    "all_news": {"rus": "Все новости","eng": "All news"},
+    "published_date":{"rus": "Опубликовано","eng": "Published by"},
+    "event_date":{"rus": "Дата мероприятия","eng": "Event date"}
+  },
+  "partners": {
+    "comment": "//ПАРТНЕРЫ",
+    "title": {"rus": "Партнеры","eng": "Partners"}
+  }
+}

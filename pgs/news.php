@@ -1,4 +1,5 @@
 <?php
+global $DB, $CFG, $LANGSQL;
 $alias = !empty($rURL->arr_params[1]) ? $rURL->arr_params[1] : Null;
 $_CONTENT = '';
 if($alias) {

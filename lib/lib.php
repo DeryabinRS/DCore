@@ -214,24 +214,14 @@ function funcRusToLat($st)
     ], $st);
 
     $st = preg_replace("/[^a-z0-9-.]/", "", $st);
-    $st = trim($st, '-');
-    //dpr($st);
-    $prev_st = '';
-    /*do {
-        $prev_st = $st;
-        $st = preg_replace("/-[a-z0-9]-/", "-", $st);
-    } while ($st != $prev_st);
-
-    $st = preg_replace("/-{2,}/", "-", $st);*/
-    //dpr($st);
-    return $st;
+    return trim($st, '-');
 }
 //Возвращеает массив записей постранично
-function funcPagination($PAGE, $FIELDS = '*', $SHEET, $lim = 25, $count_show_sheets = 7, $WHERE = '', $ORDER = 'id DESC'){
+function funcPagination($PAGE, $FIELDS = '*', $SHEET = 1, $lim = 25, $count_show_sheets = 7, $WHERE = '', $ORDER = 'id DESC'){
     global $DB;
     global $CFG;
     $PAGINATION = '';
-    $sheet = $SHEET ? $SHEET : 1;
+    $sheet = $SHEET || 1;
     $res = $DB->get_records($PAGE,[]);
     $total = count($res);
     $art = ($sheet * $lim) - $lim;

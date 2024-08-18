@@ -2,7 +2,7 @@
 
 define('DCORE', true);
 //Основные настройки сайта
-define('SITE_URL', "http://dcore");
+define('SITE_URL', "http://dcore.local");
 define('SITE_URL_ADM', SITE_URL."/dc-admin");
 define('SMTP_MAIL_HOST', "ssl://smtp.mail.ru");
 define('SMTP_MAIL_PORT', "465");
@@ -53,7 +53,7 @@ $CFG->dir_inc = $CFG->http_root.'/inc';
 $CFG->dir_img = $CFG->http_root.'/img';
 $CFG->dir_tpl = $CFG->http_root.'/tpl';
 $CFG->db = [
-    'host'   => 'localhost',
+    'host'   => 'MySQL-8.2',
     'user'   => 'root',
     'pass'   => '',
     'dbname' => 'dcore',

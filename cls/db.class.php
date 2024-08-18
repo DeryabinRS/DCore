@@ -148,9 +148,8 @@ class DCore_DB{
         return reset($records);
     }
     public function get_record($table, array $where, $fields="*"){
-        //$val = $DB->get_record('users',['login' => $login]);
         $records = $this->get_records($table, $where, false, $fields);
-        if(count($records)>1){
+        if(count($records) > 1){
             $this->debuging('DCore_DB::get_records_sql() returned more that one line');
         }
         return reset($records);
